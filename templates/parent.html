@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block title %}
+    <title>parent</title>
+{% endblock %}
+
+</head>
+<body>
+    <center>
+       
+        <h1>Header content</h1>
+
+        <h2>body of parent</h2>
+        <h2>Second line of parent class</h2>
+        <h2>Third line of parent class</h2>
+
+{% block body %}
+{% endblock %}
+        <h2>Footer content</h2>
+        
+    </center>
+    
+    
+</body>
+</html>
